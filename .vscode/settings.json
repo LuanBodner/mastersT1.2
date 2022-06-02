@@ -1,0 +1,10 @@
+{
+  "makefile.extensionOutputFolder": "./.vscode",
+  "files.associations": {
+    "*.env.*": "env",
+    "fila_encadeada.h": "c",
+    "fila_contigua.h": "c",
+    "stdlib.h": "c",
+    "string.h": "c"
+  }
+}

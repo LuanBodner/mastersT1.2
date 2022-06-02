@@ -1,0 +1,588 @@
+desc: --time-unit=ms
+cmd: ./main_contigua
+time_unit: ms
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=331
+mem_heap_B=24
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=337
+mem_heap_B=2682904
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=341
+mem_heap_B=5365784
+mem_heap_extra_B=4056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=348
+mem_heap_B=10731544
+mem_heap_extra_B=4056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=360
+mem_heap_B=32194584
+mem_heap_extra_B=8096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=364
+mem_heap_B=21463064
+mem_heap_extra_B=4056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=388
+mem_heap_B=64389144
+mem_heap_extra_B=8096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=395
+mem_heap_B=42926104
+mem_heap_extra_B=4056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=443
+mem_heap_B=128778264
+mem_heap_extra_B=8096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=457
+mem_heap_B=128778264
+mem_heap_extra_B=8096
+mem_stacks_B=0
+heap_tree=detailed
+n2: 128778264 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 128778240 0x109516: realoca_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+  n1: 128778240 0x10964E: verifica_aumenta_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+   n1: 128778240 0x109979: fila_inserir_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+    n1: 128778240 0x109425: teste_enfileirar_5m_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+     n0: 128778240 0x1094D4: main (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+ n0: 24 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=457
+mem_heap_B=85852184
+mem_heap_extra_B=4056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=553
+mem_heap_B=257556504
+mem_heap_extra_B=8096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=583
+mem_heap_B=257556504
+mem_heap_extra_B=8096
+mem_stacks_B=0
+heap_tree=detailed
+n2: 257556504 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 257556480 0x109516: realoca_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+  n1: 257556480 0x10964E: verifica_aumenta_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+   n1: 257556480 0x109979: fila_inserir_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+    n1: 257556480 0x109425: teste_enfileirar_5m_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+     n0: 257556480 0x1094D4: main (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+ n0: 24 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=583
+mem_heap_B=171704344
+mem_heap_extra_B=4056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=772
+mem_heap_B=515112984
+mem_heap_extra_B=8096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=830
+mem_heap_B=515112984
+mem_heap_extra_B=8096
+mem_stacks_B=0
+heap_tree=detailed
+n2: 515112984 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 515112960 0x109516: realoca_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+  n1: 515112960 0x10964E: verifica_aumenta_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+   n1: 515112960 0x109979: fila_inserir_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+    n1: 515112960 0x109425: teste_enfileirar_5m_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+     n0: 515112960 0x1094D4: main (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+ n0: 24 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=17
+#-----------
+time=830
+mem_heap_B=343408664
+mem_heap_extra_B=4056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=1210
+mem_heap_B=1030225944
+mem_heap_extra_B=8096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=1323
+mem_heap_B=1030225944
+mem_heap_extra_B=8096
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1030225944 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1030225920 0x109516: realoca_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+  n1: 1030225920 0x10964E: verifica_aumenta_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+   n1: 1030225920 0x109979: fila_inserir_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+    n1: 1030225920 0x109425: teste_enfileirar_5m_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+     n0: 1030225920 0x1094D4: main (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+ n0: 24 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=20
+#-----------
+time=1323
+mem_heap_B=686817304
+mem_heap_extra_B=4056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=2062
+mem_heap_B=2060451864
+mem_heap_extra_B=8096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=2296
+mem_heap_B=2060451864
+mem_heap_extra_B=8096
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2060451864 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2060451840 0x109516: realoca_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+  n1: 2060451840 0x10964E: verifica_aumenta_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+   n1: 2060451840 0x109979: fila_inserir_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+    n1: 2060451840 0x109425: teste_enfileirar_5m_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+     n0: 2060451840 0x1094D4: main (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+ n0: 24 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=2296
+mem_heap_B=1373634584
+mem_heap_extra_B=4056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=3765
+mem_heap_B=4120903704
+mem_heap_extra_B=8096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=4222
+mem_heap_B=4120903704
+mem_heap_extra_B=8096
+mem_stacks_B=0
+heap_tree=detailed
+n2: 4120903704 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4120903680 0x109516: realoca_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+  n1: 4120903680 0x10964E: verifica_aumenta_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+   n1: 4120903680 0x109979: fila_inserir_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+    n1: 4120903680 0x109425: teste_enfileirar_5m_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+     n0: 4120903680 0x1094D4: main (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+ n0: 24 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=4222
+mem_heap_B=2747269144
+mem_heap_extra_B=4056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=4982
+mem_heap_B=2747269168
+mem_heap_extra_B=4072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=4982
+mem_heap_B=2747271788
+mem_heap_extra_B=4084
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=6034
+mem_heap_B=5367271788
+mem_heap_extra_B=6332
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=6034
+mem_heap_B=5367269168
+mem_heap_extra_B=6320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=8446
+mem_heap_B=6740903728
+mem_heap_extra_B=10360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=8671
+mem_heap_B=6740903728
+mem_heap_extra_B=10360
+mem_stacks_B=0
+heap_tree=peak
+n2: 6740903728 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 6740903680 0x109516: realoca_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+  n1: 2747269120 0x10964E: verifica_aumenta_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+   n1: 2747269120 0x109979: fila_inserir_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+    n1: 2747269120 0x109425: teste_enfileirar_5m_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+     n0: 2747269120 0x1094D4: main (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+  n1: 2620000000 0x109878: fila_clone_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+   n1: 2620000000 0x10944E: teste_enfileirar_5m_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+    n0: 2620000000 0x1094D4: main (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+  n1: 1373634560 0x1096AA: verifica_diminui_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+   n1: 1373634560 0x109B64: fila_remover_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+    n1: 1373634560 0x10947A: teste_enfileirar_5m_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+     n0: 1373634560 0x1094D4: main (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+ n0: 48 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=8671
+mem_heap_B=3993634608
+mem_heap_extra_B=6320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=9234
+mem_heap_B=4680451888
+mem_heap_extra_B=10360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=9348
+mem_heap_B=3306817328
+mem_heap_extra_B=6320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=9621
+mem_heap_B=3650225968
+mem_heap_extra_B=10360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=9677
+mem_heap_B=2963408688
+mem_heap_extra_B=6320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=9826
+mem_heap_B=3135113008
+mem_heap_extra_B=10360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=9855
+mem_heap_B=2791704368
+mem_heap_extra_B=6320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=9926
+mem_heap_B=2877556528
+mem_heap_extra_B=10360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=9940
+mem_heap_B=2705852208
+mem_heap_extra_B=6320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=9980
+mem_heap_B=2748778288
+mem_heap_extra_B=10360
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2748778288 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 2748778240 0x109516: realoca_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+  n1: 2620000000 0x109878: fila_clone_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+   n1: 2620000000 0x10944E: teste_enfileirar_5m_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+    n0: 2620000000 0x1094D4: main (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+  n1: 128778240 0x1096AA: verifica_diminui_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+   n1: 128778240 0x109B64: fila_remover_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+    n1: 128778240 0x10947A: teste_enfileirar_5m_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+     n0: 128778240 0x1094D4: main (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 48 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=43
+#-----------
+time=9987
+mem_heap_B=2662926128
+mem_heap_extra_B=6320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=10006
+mem_heap_B=2684389168
+mem_heap_extra_B=10360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=10010
+mem_heap_B=2641463088
+mem_heap_extra_B=6320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=10020
+mem_heap_B=2652194608
+mem_heap_extra_B=10360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=10022
+mem_heap_B=2630731568
+mem_heap_extra_B=6320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=10027
+mem_heap_B=2636097328
+mem_heap_extra_B=10360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=10033
+mem_heap_B=2620125808
+mem_heap_extra_B=2296
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2620125808 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 2620125760 0x109516: realoca_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+  n1: 2620000000 0x109878: fila_clone_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+   n1: 2620000000 0x10944E: teste_enfileirar_5m_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+    n0: 2620000000 0x1094D4: main (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+  n0: 125760 in 2 places, all below massif's threshold (1.00%)
+ n0: 48 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=50
+#-----------
+time=10033
+mem_heap_B=2620041968
+mem_heap_extra_B=2288
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=10033
+mem_heap_B=2620062928
+mem_heap_extra_B=2296
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=10033
+mem_heap_B=2620021008
+mem_heap_extra_B=2288
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=10033
+mem_heap_B=2620031488
+mem_heap_extra_B=2296
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=10033
+mem_heap_B=2620010528
+mem_heap_extra_B=2288
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=10033
+mem_heap_B=2620015768
+mem_heap_extra_B=2304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=10033
+mem_heap_B=2620005288
+mem_heap_extra_B=2296
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=10033
+mem_heap_B=2620007908
+mem_heap_extra_B=2308
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=10033
+mem_heap_B=2620002668
+mem_heap_extra_B=2292
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=10033
+mem_heap_B=2620000048
+mem_heap_extra_B=2280
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2620000048 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 2620000000 0x109516: realoca_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+  n1: 2620000000 0x109878: fila_clone_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+   n1: 2620000000 0x10944E: teste_enfileirar_5m_contigua (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+    n0: 2620000000 0x1094D4: main (in /home/luan/Documents/Masters/T1/T1.2/Queue/main_contigua)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n0: 48 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=10033
+mem_heap_B=2620000024
+mem_heap_extra_B=2264
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=10033
+mem_heap_B=24
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=10139
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty

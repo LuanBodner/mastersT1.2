@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/luan/Documents/Masters/T1/T1.2/Queue'
+gcc -c fila_contigua.c -o fila_contigua.o
+gcc main_contigua.c fila_contigua.o -o main_contigua
+make: Leaving directory '/home/luan/Documents/Masters/T1/T1.2/Queue'
+ 
